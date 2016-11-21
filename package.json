@@ -1,0 +1,15 @@
+{
+  "name": "jsfullstack",
+  "version": "1.0.0",
+  "description": "JavaScript Stack from Scratch - Step-by-step tutorial to build a modern JavaScript stack",
+  "main": "index.js",
+  "repository": "mountainricardo/jsfullstack",
+  "author": "ricardo serrano",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tutorial-test": "yarn start"
+  },
+  "dependencies": {}
+}
