@@ -3,13 +3,30 @@
   "version": "1.0.0",
   "description": "JavaScript Stack from Scratch - Step-by-step tutorial to build a modern JavaScript stack",
   "main": "index.js",
-  "repository": "mountainricardo/jsfullstack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mountainricardo/jsfullstack.git"
+  },
   "author": "ricardo serrano",
   "license": "MIT",
   "scripts": {
-    "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tutorial-test": "yarn start"
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/mountainricardo/jsfullstack/issues"
+  },
+  "homepage": "https://github.com/mountainricardo/jsfullstack#readme",
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
 }
