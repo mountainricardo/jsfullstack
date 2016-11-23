@@ -1,7 +1,11 @@
 {
   "name": "jsfullstack",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "JavaScript Stack from Scratch - Step-by-step tutorial to build a modern JavaScript stack",
+=======
+  "description": "JavaScript Stack from Scratch - Step-by-step tutorial to build a modern JavaScript stack from	 https://github.com/verekia/js-stack-from-scratch ",
+>>>>>>> e71754ac3d829412786b65febc50eb95efdd6a20
   "main": "index.js",
   "repository": "mountainricardo/jsfullstack",
   "author": "ricardo serrano",
@@ -11,5 +15,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tutorial-test": "yarn start"
   },
+<<<<<<< HEAD
   "dependencies": {}
+=======
+  "dependencies": {
+    "color": "^0.11.4"
+  }
+>>>>>>> e71754ac3d829412786b65febc50eb95efdd6a20
 }
